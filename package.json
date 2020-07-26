@@ -1,0 +1,23 @@
+{
+    "name": "allnighter-theme",
+    "publisher": "colorlessgreenideas",
+    "displayName": "AllNighter Theme",
+    "description": "A dark theme for VSCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "AllNighter",
+                "uiTheme": "vs-dark",
+                "path": "./themes/AllNighter-color-theme.json"
+            }
+        ]
+    },
+    "repository": {"url": "https://github.com/maxsun/AllNighter-Theme"}
+}
